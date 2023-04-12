@@ -1,0 +1,30 @@
+
+.navigationBar {
+    display:flex;
+}
+
+.left {
+    width: 25%;
+    justify-content: flex-start;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+.right {
+    width: 75%;
+    justify-content: flex-end;
+    display: flex;
+    height: 100px;
+    background-color: aqua;
+}
+
+.right a {
+    width: 80%;
+    text-decoration: none;
+    color: #1A1A17;
+    font-size: 20px;
+    justify-content: center;
+}
